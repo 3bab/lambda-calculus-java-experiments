@@ -1,7 +1,8 @@
 @FunctionalInterface
 public interface Lambda {
     Lambda $(Lambda value);
-    static Lambda λ(Lambda λ) {
-        return λ;
-    }
+    //static Lambda λ(Lambda λ) {
+      //  return λ;
+    //}
+
 }
